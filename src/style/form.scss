@@ -78,26 +78,26 @@
   }
 }
 
-.link {
-  color: s.color(main);
+// .link {
+//   color: s.color(main);
 
-  @include s.click;
-}
+//   @include s.click;
+// }
 
-.link__prefix {
-  color: s.color(light);
-}
+// .link__prefix {
+//   color: s.color(light);
+// }
 
-.skeleton {
-  animation: skeleton-animation 1s infinite alternate;
-}
+// .skeleton {
+//   animation: skeleton-animation 1s infinite alternate;
+// }
 
-@keyframes skeleton-animation {
-  from {
-    background-color: rgba(0, 0, 0, 0.05);
-  }
+// @keyframes skeleton-animation {
+//   from {
+//     background-color: rgba(0, 0, 0, 0.05);
+//   }
 
-  to {
-    background-color: rgba(0, 0, 0, 0.15);
-  }
-}
+//   to {
+//     background-color: rgba(0, 0, 0, 0.15);
+//   }
+// }
